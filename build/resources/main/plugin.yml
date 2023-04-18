@@ -1,0 +1,162 @@
+name: wb_citybuild_system
+version: 1.0.0
+api-version: 1.19
+depend:
+  - Votifier
+  - Citizens
+softdepend: [ Vault, VaultAPI, TAB ]
+loadbefore:
+  - Roulette
+  - ChestShop
+author: LUPLUV
+main: dev.lupluv.cb.Citybuild
+
+commands:
+  spawn:
+  setwarp:
+  tpa:
+  tpahere:
+  tpo:
+  tpohere:
+  tpaccept:
+  warp:
+    aliases:
+      - w
+  delwarp:
+  warps:
+    aliases:
+      - warplist
+      - warpslist
+  money:
+    aliases:
+      - balance
+      - geld
+  pay:
+    description: 'Pay amount to one player'
+  payall:
+    description: 'Pay amount to every online player'
+  request:
+  gm:
+    aliases:
+      - gamemode
+  fly:
+  farmwelt:
+    aliases:
+      - farming
+      - farm
+  shop:
+  admin:
+  speed:
+  home:
+  sethome:
+  delhome:
+  homes:
+  tpdeny:
+  cc:
+    aliases:
+      - chatclear
+  ec:
+    aliases:
+      - enderchest
+  heal:
+  feed:
+  v:
+    aliases:
+      - vanish
+  myplot:
+    description: 'Open the plots gui'
+    aliases:
+      - wbplot
+      - wbplots
+      - plotmenu
+      - plotgui
+  vote:
+    description: 'Open the vote gui'
+    aliases:
+      - votegui
+  event:
+    description: 'Take part in events'
+    aliases:
+      - events
+  startkick:
+    description: 'Startkicke einen Spieler'
+  ja:
+    description: 'Stimme für ja ab'
+  nein:
+    description: 'Stimme für nein ab'
+  setstats:
+    description: 'Set the stats NPCs'
+  msg:
+    description: 'Message command'
+    aliases:
+      - message
+  reply:
+    description: 'Reply command'
+    aliases:
+      - r
+  sign:
+    description: 'Sign a item'
+  invsee:
+    description: 'See a players inventory'
+  adminshop:
+    description: 'See adminshop'
+  clan:
+    aliases:
+      - clans
+    description: 'Use clans'
+  givereward:
+    description: 'Gives advent reward to player.'
+  neustart:
+  skull:
+    aliases:
+      - head
+      - kopf
+  ranginfo:
+    description: 'Ranginfo GUI'
+    aliases:
+      - rankinfo
+      - rinfo
+  social:
+    aliases:
+      - socialmedia
+      - tiktok
+      - twitch
+      - website
+      - store
+      - instagram
+      - twitter
+      - youtube
+      - teamspeak
+      - ts
+  werbung:
+    aliases:
+      - ad
+  bewerben:
+    aliases:
+      - apply
+  live:
+  belohnung:
+  rangshop:
+  craft:
+    aliases:
+      - werkbank
+      - crafting
+  anvil:
+    aliases:
+      - amboss
+  namecolor:
+    aliases:
+      - namensfarben
+  bank:
+  itemshop:
+    aliases:
+      - shop
+  coinflip:
+    aliases:
+      - cf
+  statistiken:
+  effekt:
+    aliases:
+      - effects
+      - effect
+  merge:

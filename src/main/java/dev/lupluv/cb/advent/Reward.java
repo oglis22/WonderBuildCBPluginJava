@@ -1,0 +1,26 @@
+package dev.lupluv.cb.advent;
+
+public enum Reward {
+
+    STEAK_64,
+    FIRE_RESISTANCE_5_MIN,
+    BREAD_64,
+    QUARTZ_BLOCK_32,
+    PIG_SPAWN_EGG,
+    LIGHT,
+    ELEVATOR,
+    OAK_LOGS_64,
+    TRIDENT,
+    DIAMONDS_10,
+    EMERALDS_32,
+    SHEEP_SPAWN_EGG,
+    CARROTS_64,
+    GOLDEN_APPLE_3,
+    SPONGE_10,
+    IRON_BLOCK_5,
+    DIAMOND_SWORD,
+    DRAGON_HEAD,
+    NETHERITE_INGOTS_5,
+    CHRISTMAS_NAMECOLOR;
+
+}

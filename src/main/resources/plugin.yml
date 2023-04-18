@@ -1,0 +1,12 @@
+name: wb_citybuild_system
+version: 1.0.0
+api-version: 1.19
+depend:
+  - Votifier
+  - Citizens
+softdepend: [ Vault, VaultAPI, TAB ]
+loadbefore:
+  - Roulette
+  - ChestShop
+author: LUPLUV
+main: dev.lupluv.cb.Citybuild
